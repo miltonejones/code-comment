@@ -1,0 +1,5977 @@
+[
+  {
+    "path": "tango-associate-ui/src/App.js",
+    "methods": [
+      {
+        "name": "App",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "desc": "Application entry point",
+    "omit": true,
+    "updated": true,
+    "expanded": false
+  },
+  {
+    "path": "tango-associate-ui/src/Routes.js",
+    "methods": [
+      {
+        "name": "Routes",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "desc": "Renders appropriate application route",
+    "omit": true,
+    "updated": true,
+    "expanded": false
+  },
+  {
+    "path": "tango-associate-ui/src/SafetyAssessment/SafetyAcknowledgement.js",
+    "methods": [
+      {
+        "name": "SafetyAcknowledgement",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "checkCompleted",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          },
+          {
+            "name": "aIndex",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/SafetyAssessment/SafetyAssessment.js",
+    "methods": [
+      {
+        "name": "SafetyAssessment",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "getStepContent",
+        "desc": "",
+        "args": [
+          {
+            "name": "step",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleNext",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "totalSteps",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "completedSteps",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleBack",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleStep",
+        "desc": "",
+        "args": [
+          {
+            "name": "step",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleComplete",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleReset",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true,
+    "desc": "renders the safety assessment workflow",
+    "expanded": false
+  },
+  {
+    "path": "tango-associate-ui/src/SafetyAssessment/SafetyQuiz.js",
+    "methods": [
+      {
+        "name": "SafetyQuiz",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "checkCompleted",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          },
+          {
+            "name": "qIndex",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/__mocks__/fileMock.js",
+    "methods": [],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/__mocks__/react-youtube.js",
+    "methods": [
+      {
+        "name": "MockYouTube",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/analytics/Analytics.js",
+    "methods": [
+      {
+        "name": "gaEvent_ExternalLink",
+        "desc": "",
+        "args": [
+          {
+            "name": "name",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/appTheme.js",
+    "methods": [],
+    "omit": true,
+    "updated": true,
+    "expanded": true
+  },
+  {
+    "path": "tango-associate-ui/src/aws-exports.js",
+    "methods": [],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Application/Application.js",
+    "methods": [
+      {
+        "name": "checkExperienceIsValid",
+        "desc": "tests if applicant experience meets all criteria",
+        "args": [
+          {
+            "name": "data",
+            "description": "",
+            "desc": "applicant data",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "Application",
+        "desc": "renders the Application component",
+        "args": []
+      },
+      {
+        "name": "formatIncomingResumes",
+        "desc": "converts incoming json data to app native format",
+        "args": [
+          {
+            "name": "candidateExperienceHistory",
+            "description": "",
+            "type": "array",
+            "desc": "array of job objects"
+          }
+        ]
+      },
+      {
+        "name": "handleSubmit",
+        "desc": "fires when form is submitted",
+        "args": []
+      }
+    ],
+    "desc": "Job application UI",
+    "expanded": false,
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Application/Details.js",
+    "methods": [
+      {
+        "name": "Details",
+        "desc": "renders the Details component",
+        "args": [
+          {
+            "name": "children",
+            "description": "",
+            "desc": "child components to display"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Application/Experience.js",
+    "methods": [
+      {
+        "name": "PositionList",
+        "desc": "displays a read-only list of positions",
+        "args": [
+          {
+            "name": "positions",
+            "description": "",
+            "desc": "list of positions in user resume",
+            "type": "array"
+          },
+          {
+            "name": "selected",
+            "description": "",
+            "desc": "sets whether the card is expanded",
+            "type": "boolean"
+          },
+          {
+            "name": "divider",
+            "description": "",
+            "desc": "sets whether a divider is shown between positions",
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "name": "Experience",
+        "desc": "renders the Experience component card",
+        "args": [
+          {
+            "name": "positions",
+            "description": "",
+            "desc": "list of positions in user resume",
+            "type": "array"
+          },
+          {
+            "name": "enabled",
+            "description": "",
+            "desc": "sets whether card is enabled",
+            "type": "boolean"
+          },
+          {
+            "name": "submit",
+            "description": "",
+            "desc": "submits form data to the calling component",
+            "type": "function"
+          },
+          {
+            "name": "data",
+            "description": "",
+            "desc": "existing resume data",
+            "type": "array"
+          }
+        ]
+      },
+      {
+        "name": "fileIs",
+        "desc": "sets the currently selected filename",
+        "args": [
+          {
+            "name": "value = \"\"",
+            "description": "",
+            "desc": "file name",
+            "type": "string"
+          },
+          {
+            "name": "valid",
+            "description": "",
+            "desc": "sets whether file name is valid",
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "name": "handleBuildResume",
+        "desc": "fires when user clicks Save button",
+        "args": []
+      },
+      {
+        "name": "formatResumes",
+        "desc": "formats resumes for the view",
+        "args": [
+          {
+            "name": "resumes",
+            "description": "",
+            "desc": "list of resume objects",
+            "type": "array"
+          }
+        ]
+      },
+      {
+        "name": "handleChange",
+        "desc": "fires when input value changes",
+        "args": []
+      }
+    ],
+    "expanded": false,
+    "omit": false,
+    "desc": "Displays the applicant job experience card",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Application/FileUploader/FileUploader.js",
+    "methods": [
+      {
+        "name": "ReplaceButton",
+        "desc": "button to invoke the file uploader",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "FileUploader",
+        "desc": "Renders the FileUploader component",
+        "args": [
+          {
+            "name": "submit",
+            "description": "",
+            "desc": "method to return the input value",
+            "type": "function"
+          },
+          {
+            "name": "fileInput",
+            "description": "",
+            "desc": "html input reference",
+            "type": "object"
+          },
+          {
+            "name": "except",
+            "description": "",
+            "desc": "method to call in the event of an exception",
+            "type": "function"
+          },
+          {
+            "name": "caption",
+            "description": "",
+            "desc": "text to be displayed over the input",
+            "type": "string"
+          },
+          {
+            "name": "disabled",
+            "description": "",
+            "desc": "sets whether the input is disabled",
+            "type": "boolean"
+          },
+          {
+            "name": "limit",
+            "description": "",
+            "desc": "file size limit for uploaded files",
+            "type": "number"
+          },
+          {
+            "name": "debug",
+            "description": "",
+            "desc": "variable to support Jest testing",
+            "type": "string"
+          },
+          {
+            "name": "endpoint",
+            "description": "",
+            "desc": "address to post the uploaded file to (if not set by the API)",
+            "type": "string"
+          },
+          {
+            "name": "api",
+            "description": "",
+            "desc": "reference to the ApiConnector",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "name": "handleFileChange",
+        "desc": "fires when user selects a file",
+        "args": [
+          {
+            "name": "e",
+            "description": "",
+            "desc": "event passed from the input element",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "emit",
+        "desc": "sends results to calling controller",
+        "args": [
+          {
+            "name": "f",
+            "description": "",
+            "desc": "filename to emit",
+            "type": "string"
+          },
+          {
+            "name": "m = \"\"",
+            "description": "",
+            "desc": "error message, if any",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "desc": "File upload input and button",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Application/FileUploader/ReadableFileSize/ReadableFileSize.js",
+    "methods": [
+      {
+        "name": "humanFileSize",
+        "desc": "Format bytes as human-readable text.",
+        "args": [
+          {
+            "name": "bytes",
+            "description": "",
+            "desc": "number of bytes",
+            "type": "number"
+          },
+          {
+            "name": "si = false",
+            "description": "",
+            "desc": "True to use metric (SI) units, aka powers of 1000. False to use binary (IEC), aka powers of 1024.",
+            "type": "boolean"
+          },
+          {
+            "name": "dp = 1",
+            "description": "",
+            "desc": "Number of decimal places to display.",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "name": "ReadableFileSize",
+        "desc": "displays the ReadableFileSize component",
+        "args": [
+          {
+            "name": "size",
+            "description": "",
+            "desc": "file size to display",
+            "type": "number"
+          }
+        ]
+      }
+    ],
+    "desc": "Converts a number to a readable string",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Application/JobPostCard/JobPostCard.js",
+    "methods": [
+      {
+        "name": "JobPostCard",
+        "desc": "renders the JobPostCard component",
+        "args": []
+      }
+    ],
+    "desc": "Displays a job posting for the application page",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Application/PersonalInfo.js",
+    "methods": [
+      {
+        "name": "handlePhoneOnBlur",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleZipOnBlur",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "validatePhoneNumber",
+        "desc": "",
+        "args": [
+          {
+            "name": "phoneNumber",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "validateZip",
+        "desc": "",
+        "args": [
+          {
+            "name": "zipCode",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "normalizeInput",
+        "desc": "",
+        "args": [
+          {
+            "name": "value",
+            "description": ""
+          },
+          {
+            "name": "previousValue",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handlePhoneChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleStateChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          },
+          {
+            "name": "values",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleButtonDisabled",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleEmailChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleEmailBlur",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "validateEmail",
+        "desc": "",
+        "args": [
+          {
+            "name": "email",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "PersonalInfo",
+        "desc": "",
+        "args": [
+          {
+            "name": "submit",
+            "description": ""
+          },
+          {
+            "name": "data",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleCancel",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "updateApplicantInfo",
+        "desc": "",
+        "args": [
+          {
+            "name": "form",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "handleSave",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "desc": "Form for applicant personal information",
+    "omit": true,
+    "updated": true,
+    "expanded": false
+  },
+  {
+    "path": "tango-associate-ui/src/components/ApplicationSubmitted/Submitted.js",
+    "methods": [
+      {
+        "name": "Submitted",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Authentication/AuthPage.js",
+    "methods": [
+      {
+        "name": "AuthPage",
+        "desc": "",
+        "args": [
+          {
+            "name": "children",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Authentication/ConfirmAccount.js",
+    "methods": [
+      {
+        "name": "handleConfirmAccount",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleOnBlur",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleConfirmCodeChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "validateEmail",
+        "desc": "",
+        "args": [
+          {
+            "name": "email",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleSubmit",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "startTimer",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleRequestConfirmCode",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleCancel",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "CircularProgressWithLabel",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "ConfirmAccount",
+        "desc": "",
+        "args": [
+          {
+            "name": "config",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Authentication/PasswordInput.js",
+    "methods": [
+      {
+        "name": "PasswordInput",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "hasMinLength",
+        "desc": "",
+        "args": [
+          {
+            "name": "password",
+            "description": ""
+          },
+          {
+            "name": "minLength",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "hasUpperCase",
+        "desc": "",
+        "args": [
+          {
+            "name": "password",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "hasLowerCase",
+        "desc": "",
+        "args": [
+          {
+            "name": "password",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "hasNumber",
+        "desc": "",
+        "args": [
+          {
+            "name": "password",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "validate",
+        "desc": "",
+        "args": [
+          {
+            "name": "newPassword",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "revealReqs",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleClickShowPassword",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleMouseDownPassword",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true,
+    "expanded": false
+  },
+  {
+    "path": "tango-associate-ui/src/components/Authentication/PasswordReset.js",
+    "methods": [
+      {
+        "name": "PasswordReset",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "getStepContent",
+        "desc": "",
+        "args": [
+          {
+            "name": "step",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleForgotPasswordSubmit",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleForgotPassword",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleEmailChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleEmailOnBlur",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleConfirmCodeChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "validateEmail",
+        "desc": "",
+        "args": [
+          {
+            "name": "email",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleContinue",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleReset",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleCancel",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleContinueState",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Authentication/Requirement.js",
+    "methods": [
+      {
+        "name": "Requirement",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "generateIcon",
+        "desc": "",
+        "args": [
+          {
+            "name": "state",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Authentication/SignIn.js",
+    "methods": [
+      {
+        "name": "handleSignIn",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleFederatedSignIn",
+        "desc": "",
+        "args": [
+          {
+            "name": "type",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleOnBlur",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "validateEmail",
+        "desc": "",
+        "args": [
+          {
+            "name": "email",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleSubmit",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "SignIn",
+        "desc": "",
+        "args": [
+          {
+            "name": "config",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Authentication/SignUp.js",
+    "methods": [
+      {
+        "name": "SignUp",
+        "desc": "",
+        "args": [
+          {
+            "name": "config",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleSignUp",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleFederatedSignIn",
+        "desc": "",
+        "args": [
+          {
+            "name": "type",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleEmailChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleEmailBlur",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "validateEmail",
+        "desc": "",
+        "args": [
+          {
+            "name": "email",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handlePhoneChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handlePhoneOnBlur",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "validatePhoneNumber",
+        "desc": "",
+        "args": [
+          {
+            "name": "phoneNumber",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleSubmit",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleButtonDisabled",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Benefits/BenefitsDetails/BenefitsDetails.js",
+    "methods": [
+      {
+        "name": "BenefitsDetails",
+        "desc": "renders the BenefitsDetails component",
+        "args": [
+          {
+            "name": "onProgressBarDetails",
+            "description": "",
+            "desc": "sends progress messages to the calling component",
+            "type": "function"
+          },
+          {
+            "name": "onSuccess",
+            "description": "",
+            "desc": "fires when panel is successfully completed",
+            "type": "function"
+          }
+        ]
+      },
+      {
+        "name": "continueBenefits",
+        "desc": "calls the api submitBenefitsIntent method",
+        "args": []
+      },
+      {
+        "name": "AccordionPanel",
+        "desc": "panel to display individual benefits details",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component",
+            "type": "object"
+          }
+        ]
+      }
+    ],
+    "desc": "Detail screen for benefits intent progress view",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Benefits/BenefitsEnrollmentQuestion/BenefitsEnrollmentQuestion.js",
+    "methods": [
+      {
+        "name": "Question",
+        "desc": "renders the Question component",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "BenefitsEnrollmentQuestion",
+        "desc": "renders the BenefitsEnrollmentQuestion component",
+        "args": [
+          {
+            "name": "emit",
+            "description": "",
+            "desc": "send user response to the calling component",
+            "type": "function"
+          }
+        ]
+      },
+      {
+        "name": "handleChange",
+        "desc": "fires when radio buttons are clicked",
+        "args": [
+          {
+            "name": "event",
+            "description": "",
+            "desc": "event passed from the radio button ",
+            "type": "object"
+          }
+        ]
+      }
+    ],
+    "desc": "Enrollment question form for benefits detail screen",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Benefits/BenefitsOverview/BenefitsOverview.js",
+    "methods": [
+      {
+        "name": "BenefitsOverview",
+        "desc": "renders the BenefitsOverview component",
+        "args": [
+          {
+            "name": "onProgressBarDetails",
+            "description": "",
+            "desc": "sends progress messages to the calling component",
+            "type": "function"
+          },
+          {
+            "name": "onSuccess",
+            "description": "",
+            "desc": "fires when panel is successfully completed",
+            "type": "function"
+          }
+        ]
+      },
+      {
+        "name": "BenefitsHeaderTag",
+        "desc": "renders the BenefitsHeaderTag component",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "DiscountHeaderTag",
+        "desc": "renders the DiscountHeaderTag component",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component",
+            "type": "object"
+          }
+        ]
+      }
+    ],
+    "desc": "Overview screen for benefits intent progress view",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Benefits/BenefitsProgress/BenefitsProgress.js",
+    "methods": [
+      {
+        "name": "BenefitsProgress",
+        "desc": "renders the BenefitsProgress component",
+        "args": []
+      }
+    ],
+    "desc": "Progress wrapper for Benefits intent",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/BenefitsIntentDialog/BenefitsIntentDialog.js",
+    "methods": [
+      {
+        "name": "BenefitsIntentContent",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "BenefitsIntentDialog",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "BenefitsIntentDialogFooter",
+        "desc": "",
+        "args": [
+          {
+            "name": "<em>\n      t(\n        \"benefits_intent.dialog_footer\"",
+            "description": ""
+          },
+          {
+            "name": "\"If yes",
+            "description": ""
+          },
+          {
+            "name": "you will pre-register for enrollment from the dashboard once you complete your application.\"\n      )\n    </em>",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "ask",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "desc": "--- MAY BE DEPRECATED ---",
+    "expanded": false,
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/CommPref/CommPref.js",
+    "methods": [
+      {
+        "name": "CommPref",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "label1",
+        "desc": "",
+        "args": [
+          {
+            "name": "<Typography variant=\"body2\" ml=4>\n      {t(\n        \"comm_pref.form_control_label_option_1\"",
+            "description": ""
+          },
+          {
+            "name": "\"Receive ONLY electronic communications\"\n      )}\n    </Typography>",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "label2",
+        "desc": "",
+        "args": [
+          {
+            "name": "<Typography variant=\"body2\" ml=4>\n      {t(\n        \"comm_pref.form_control_label_option_2\"",
+            "description": ""
+          },
+          {
+            "name": "\"Receive BOTH paper and electronic communications\"\n      )}\n    </Typography>",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleChecked",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Common/FileTypeIcon/FileTypeIcon.js",
+    "methods": [
+      {
+        "name": "FileTypeIcon",
+        "desc": "renders the FileTypeIcon component",
+        "args": [
+          {
+            "name": "fileType",
+            "description": "",
+            "desc": "file extension",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "desc": "Displays appropriate icon for given file type",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Common/LayoutNavigation/LayoutNavigation.js",
+    "methods": [
+      {
+        "name": "handleSignOut",
+        "desc": "fires when user signs out",
+        "args": []
+      },
+      {
+        "name": "LayoutNavigation",
+        "desc": "renders the LayoutNavigation component",
+        "args": []
+      }
+    ],
+    "desc": "Navigation sidebar for Profile Layout view",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Common/ModalSnackBar/ModalSnackBar.js",
+    "methods": [
+      {
+        "name": "ModalSnackBar",
+        "desc": "renders the ModalSnackBar component",
+        "args": [
+          {
+            "name": "text",
+            "description": "",
+            "desc": "text to display",
+            "type": "string"
+          },
+          {
+            "name": "open",
+            "description": "",
+            "desc": "sets whether snackbar is open",
+            "type": "boolean"
+          },
+          {
+            "name": "quit",
+            "description": "",
+            "desc": "fires when the snackbar closes",
+            "type": "function"
+          },
+          {
+            "name": "undo",
+            "description": "",
+            "desc": "undo function, if any",
+            "type": "function"
+          },
+          {
+            "name": "vertical",
+            "description": "",
+            "desc": "vertical placement of the snackbar",
+            "type": "string"
+          },
+          {
+            "name": "horizontal",
+            "description": "",
+            "desc": "horizontal placement of the snackbar",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "name": "ModalSnackBarConfig",
+        "desc": "configures a state setter to open the snack bar",
+        "args": [
+          {
+            "name": "make",
+            "description": "",
+            "desc": "set setter function",
+            "type": "function"
+          }
+        ]
+      }
+    ],
+    "desc": "General use snack bar ",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Common/ProfileAvatar/ProfileAvatar.js",
+    "methods": [
+      {
+        "name": "ProfileAvatar",
+        "desc": "renders the ProfileAvatar component",
+        "args": [
+          {
+            "name": "name",
+            "description": "",
+            "desc": "name to display beside avatar",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "desc": "Avatar/name display for Profile Layout view",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Common/ProfileLayout/NavigationLinks.js",
+    "methods": [],
+    "expanded": false,
+    "desc": "global navigation",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Common/ProfileLayout/ProfileLayout.js",
+    "methods": [
+      {
+        "name": "ProfileLayout",
+        "desc": "renders the ProfileLayout component",
+        "args": [
+          {
+            "name": "children",
+            "description": "",
+            "desc": "child components to render",
+            "type": "object"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "global layout for the profile view",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Common/SaveForLater/SaveForLater.js",
+    "methods": [
+      {
+        "name": "SaveForLater",
+        "desc": "renders the SaveForLater component",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "handleSaveForLater",
+        "desc": "handles the button click event",
+        "args": [
+          {
+            "name": "event",
+            "description": "",
+            "desc": "event passed to the click event",
+            "type": "function"
+          }
+        ]
+      }
+    ],
+    "desc": "Global Save button",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Common/TwoToneCard/TwoToneCard.js",
+    "methods": [
+      {
+        "name": "TwoToneCard",
+        "desc": "renders the TwoToneCard component",
+        "args": [
+          {
+            "name": "subheader",
+            "description": "",
+            "desc": "text to display in the top right of the card",
+            "type": "string"
+          },
+          {
+            "name": "children",
+            "description": "",
+            "desc": "child components to appear in the lower section of the card",
+            "type": "object"
+          },
+          {
+            "name": "title",
+            "description": "",
+            "desc": "text to display at the top left of the card",
+            "type": "string"
+          },
+          {
+            "name": "finished",
+            "description": "",
+            "desc": "sets whether card should display in COMPLETE state",
+            "type": "boolean"
+          }
+        ]
+      }
+    ],
+    "desc": "Wrapper to display an MUI card with top and bottom sections",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/CompletionScreen/CompletionScreen.js",
+    "methods": [
+      {
+        "name": "CompletionScreen",
+        "desc": "",
+        "args": [
+          {
+            "name": "onProgressBarDetails",
+            "description": ""
+          },
+          {
+            "name": "location",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "StepItem",
+        "desc": "",
+        "args": [
+          {
+            "name": "title",
+            "description": ""
+          },
+          {
+            "name": "started",
+            "description": ""
+          },
+          {
+            "name": "duration",
+            "description": ""
+          },
+          {
+            "name": "completed",
+            "description": ""
+          },
+          {
+            "name": "index",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/CompletionScreen/SuccessView.js",
+    "methods": [
+      {
+        "name": "Success",
+        "desc": "",
+        "args": [
+          {
+            "name": "details",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true,
+    "expanded": false
+  },
+  {
+    "path": "tango-associate-ui/src/components/ConfirmDialog/ConfirmDialog.js",
+    "methods": [
+      {
+        "name": "ConfirmDialog",
+        "desc": "renders the ConfirmDialog component",
+        "args": [
+          {
+            "name": "send",
+            "description": "",
+            "desc": "sends user response to the calling container",
+            "type": "function"
+          },
+          {
+            "name": "open",
+            "description": "",
+            "desc": "sets whether dialog is open",
+            "type": "boolean"
+          },
+          {
+            "name": "head",
+            "description": "",
+            "desc": "header text of the dialog",
+            "type": "string"
+          },
+          {
+            "name": "text",
+            "description": "",
+            "desc": "body text of the dialog",
+            "type": "string"
+          },
+          {
+            "name": "foot",
+            "description": "",
+            "desc": "footer content of the dialog",
+            "type": "string"
+          },
+          {
+            "name": "quiz",
+            "description": "",
+            "desc": "prompt question to display, if any",
+            "type": "string"
+          },
+          {
+            "name": "buttons",
+            "description": "",
+            "desc": "buttons to show in the footer of the dialog",
+            "type": "object"
+          },
+          {
+            "name": "buttonOptions",
+            "description": "",
+            "desc": "options of the dialog buttons",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "DialogConfig",
+        "desc": "configures a state setter to open the dialog",
+        "args": [
+          {
+            "name": "make",
+            "description": "",
+            "desc": "set setter function",
+            "type": "function"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "global dynamic dialog component",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/DateTimePicker/DateTimePicker.js",
+    "methods": [
+      {
+        "name": "DateTimePicker",
+        "desc": "renders the DateTimePicker component",
+        "args": [
+          {
+            "name": "label",
+            "description": "",
+            "desc": "text to display when no date is selected"
+          },
+          {
+            "name": "submit",
+            "description": "",
+            "desc": "sends user response to the calling controller"
+          },
+          {
+            "name": "initial",
+            "description": "",
+            "desc": "initial value of the date selector"
+          },
+          {
+            "name": "disableFuture",
+            "description": "",
+            "desc": "sets whether future dates are allowed"
+          },
+          {
+            "name": "maxDate",
+            "description": "",
+            "desc": "latest date to display"
+          },
+          {
+            "name": "minDate",
+            "description": "",
+            "desc": "earliest date to display"
+          },
+          {
+            "name": "debugDate",
+            "description": "",
+            "desc": "supports Jest testing"
+          }
+        ]
+      },
+      {
+        "name": "handleDateChange",
+        "desc": "fires when user selects a date",
+        "args": [
+          {
+            "name": "e",
+            "description": "",
+            "desc": "event passed when user selects a date"
+          }
+        ]
+      }
+    ],
+    "desc": "Global Data picker component",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/DetailCard/DetailCard.js",
+    "methods": [
+      {
+        "name": "ReadinessDetailCard",
+        "desc": "renders the ReadinessDetailCard component",
+        "args": [
+          {
+            "name": "title",
+            "description": "",
+            "desc": "title of the card"
+          },
+          {
+            "name": "children",
+            "description": "",
+            "desc": "child components to display"
+          },
+          {
+            "name": "footer",
+            "description": "",
+            "desc": "footer content of the card"
+          },
+          {
+            "name": "editButton",
+            "description": "",
+            "desc": "button to display, if any"
+          },
+          {
+            "name": "editButtonFunction",
+            "description": "",
+            "desc": "method to call when the edit button is clicked"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "global detail card layout component",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/DetailCard/InterviewDetailContent/InterviewDetailContent.js",
+    "methods": [
+      {
+        "name": "EmbeddedMap",
+        "desc": "renders the EmbeddedMap component",
+        "args": []
+      },
+      {
+        "name": "InterviewDetailContent",
+        "desc": "renders the InterviewDetailContent component",
+        "args": []
+      }
+    ],
+    "expanded": false,
+    "desc": "content for the interview detail layout",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/DetailCard/InterviewDetailContent/InterviewDetailContentButtonGroup/InterviewDetailContentButtonGroup.js",
+    "methods": [
+      {
+        "name": "InterviewDetailContentButtonGroup",
+        "desc": "renders the InterviewDetailContentButtonGroup component",
+        "args": [
+          {
+            "name": "debug",
+            "description": "",
+            "desc": "used to support Jest testing"
+          }
+        ]
+      },
+      {
+        "name": "handleClick",
+        "desc": "fires when button menu item is clicked",
+        "args": [
+          {
+            "name": "event",
+            "description": "",
+            "desc": "event passed when user clicks a menu item"
+          }
+        ]
+      },
+      {
+        "name": "handleClose",
+        "desc": "fires when button menu is closed",
+        "args": [
+          {
+            "name": "event",
+            "description": "",
+            "desc": "event passed when menu is closed"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "button group for interview detail options",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/DetailCard/InterviewDetailContent/InterviewDetailContentButtonGroup/InterviewDetailsContentButtonCreateICS.js",
+    "methods": [
+      {
+        "name": "convertDate",
+        "desc": "converts a date to a readable string",
+        "args": [
+          {
+            "name": "date",
+            "description": "",
+            "desc": "date to convert"
+          }
+        ]
+      },
+      {
+        "name": "CreateCalendarFileICS",
+        "desc": "creates a calendar entry file",
+        "args": []
+      }
+    ],
+    "expanded": false,
+    "desc": "creates a calendar entry file",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/DetailCard/RecentApplicationContent/RecentApplicationContent.js",
+    "methods": [
+      {
+        "name": "JobListItem",
+        "desc": "renders the JobListItem component",
+        "args": [
+          {
+            "name": "job",
+            "description": "",
+            "desc": "job object to display"
+          },
+          {
+            "name": "ask",
+            "description": "",
+            "desc": "opens job detail modal"
+          },
+          {
+            "name": "last",
+            "description": "",
+            "desc": "true when this is the last item in the list"
+          }
+        ]
+      },
+      {
+        "name": "RecentApplicationContent",
+        "desc": "renders the RecentApplicationContent component",
+        "args": [
+          {
+            "name": "error",
+            "description": "",
+            "desc": "true when an error message should be displayed"
+          },
+          {
+            "name": "open",
+            "description": "",
+            "desc": "true when\" previous applications have expired\" message should be displayed",
+            "type": "boolean"
+          },
+          {
+            "name": "jobs",
+            "description": "",
+            "desc": "list of job objects to display",
+            "type": "array"
+          }
+        ]
+      },
+      {
+        "name": "RecentApplicationContentFooter",
+        "desc": "renders the RecentApplicationContentFooter component",
+        "args": [
+          {
+            "name": "open",
+            "description": "",
+            "desc": "sets whether the footer is shown"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "content fo the recent applications layout",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Dev/CodeCommentGrid/CodeCommentGrid.js",
+    "methods": [
+      {
+        "name": "postData",
+        "desc": "",
+        "args": [
+          {
+            "name": "url = \"\"",
+            "desc": ""
+          },
+          {
+            "name": "data =",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "CommentGrid",
+        "desc": "",
+        "args": [
+          {
+            "name": "json",
+            "desc": ""
+          },
+          {
+            "name": "update",
+            "desc": ""
+          },
+          {
+            "name": "omitted",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "PathName",
+        "desc": "",
+        "args": [
+          {
+            "name": "desc",
+            "desc": ""
+          },
+          {
+            "name": "path",
+            "desc": ""
+          },
+          {
+            "name": "onClick",
+            "desc": ""
+          },
+          {
+            "name": "setValue",
+            "desc": ""
+          },
+          {
+            "name": "expanded",
+            "desc": ""
+          },
+          {
+            "name": "omitted",
+            "desc": ""
+          },
+          {
+            "name": "valid",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "CodeCommentGridModal",
+        "desc": "",
+        "args": [
+          {
+            "name": "modalOpen",
+            "desc": ""
+          },
+          {
+            "name": "submit",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "TypeMenu",
+        "desc": "",
+        "args": [
+          {
+            "name": "arg",
+            "desc": ""
+          },
+          {
+            "name": "setValue",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "save",
+        "desc": "",
+        "args": [
+          {
+            "name": "c",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "read",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "CodeCommentGrid",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "putCodeCommentCollection",
+        "desc": "",
+        "args": [
+          {
+            "name": "collection",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "postChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "desc": ""
+          },
+          {
+            "name": "newValue",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "copy",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "update",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "expand",
+        "desc": "",
+        "args": [
+          {
+            "name": "f",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "setValue",
+        "desc": "",
+        "args": [
+          {
+            "name": "fn",
+            "desc": ""
+          },
+          {
+            "name": "f",
+            "desc": ""
+          },
+          {
+            "name": "v",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "handleMethChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "path",
+            "desc": ""
+          },
+          {
+            "name": "meth",
+            "desc": ""
+          },
+          {
+            "name": "desc",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "handleArgChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "path",
+            "desc": ""
+          },
+          {
+            "name": "meth",
+            "desc": ""
+          },
+          {
+            "name": "arg",
+            "desc": ""
+          },
+          {
+            "name": "des",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "setArgProp",
+        "desc": "",
+        "args": [
+          {
+            "name": "path",
+            "desc": ""
+          },
+          {
+            "name": "meth",
+            "desc": ""
+          },
+          {
+            "name": "arg",
+            "desc": ""
+          },
+          {
+            "name": "prop",
+            "desc": ""
+          },
+          {
+            "name": "value",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "validArg",
+        "desc": "",
+        "args": [
+          {
+            "name": "a",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "validMeth",
+        "desc": "",
+        "args": [
+          {
+            "name": "m",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "validFile",
+        "desc": "",
+        "args": [
+          {
+            "name": "m",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "progress",
+        "desc": "",
+        "args": [
+          {
+            "name": "valid / count",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "e",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "handleCodeCommentGridClose",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "CodeCommentGridModalConfig",
+        "desc": "",
+        "args": [
+          {
+            "name": "setState",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "handleClick",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "handleClose",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleChoose",
+        "desc": "",
+        "args": [
+          {
+            "name": "e",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "omit": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Dev/JsonColor.js",
+    "methods": [
+      {
+        "name": "JsonColor",
+        "desc": "format and colorize JSON text",
+        "args": [
+          {
+            "name": "json",
+            "desc": "text to format",
+            "type": "string"
+          },
+          {
+            "name": "classes",
+            "desc": "ref to classes object for styling",
+            "type": "object"
+          },
+          {
+            "name": "spacing = 2",
+            "desc": "indent spacing",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "name": "matchColors",
+        "desc": "inserts styling tags",
+        "args": [
+          {
+            "name": "match",
+            "desc": "string to match",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "desc": "",
+        "args": [
+          {
+            "name": "match",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "expanded": true,
+    "desc": "JSON string colorizer",
+    "omit": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Dev/PostMate/HeaderGrid/HeaderGrid.js",
+    "methods": [
+      {
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "HeaderGrid",
+        "desc": "",
+        "args": [
+          {
+            "name": "rows",
+            "desc": ""
+          },
+          {
+            "name": "authToken",
+            "desc": ""
+          },
+          {
+            "name": "fileInput",
+            "desc": ""
+          },
+          {
+            "name": "setRequestForm",
+            "desc": ""
+          },
+          {
+            "name": "setRequestQuery",
+            "desc": ""
+          },
+          {
+            "name": "editable",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "handleFileChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "e",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "editCell",
+        "desc": "",
+        "args": [
+          {
+            "name": "key",
+            "desc": ""
+          },
+          {
+            "name": "old",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "onCellClick",
+        "desc": "",
+        "args": [
+          {
+            "name": "params",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "omit": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Dev/PostMate/PostMate.js",
+    "methods": [
+      {
+        "name": "a11yProps",
+        "desc": "",
+        "args": [
+          {
+            "name": "index",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "camalize",
+        "desc": "",
+        "args": [
+          {
+            "name": "str",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "desc": "",
+        "args": [
+          {
+            "name": "match",
+            "desc": ""
+          },
+          {
+            "name": "chr",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "PostmateBody",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "PostmateAddress",
+        "desc": "",
+        "args": [
+          {
+            "name": "endpointURL",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "PostmateHeader",
+        "desc": "",
+        "args": [
+          {
+            "name": "selectedNode",
+            "desc": ""
+          },
+          {
+            "name": "endpointURL",
+            "desc": ""
+          },
+          {
+            "name": "send",
+            "desc": ""
+          },
+          {
+            "name": "disableSend",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "RequestCode",
+        "desc": "",
+        "args": [
+          {
+            "name": "requestBody",
+            "desc": ""
+          },
+          {
+            "name": "requestForm",
+            "desc": ""
+          },
+          {
+            "name": "endpointURL",
+            "desc": ""
+          },
+          {
+            "name": "requestMethod",
+            "desc": ""
+          },
+          {
+            "name": "requestName",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "RecurseTree",
+        "desc": "",
+        "args": [
+          {
+            "name": "nodes",
+            "desc": ""
+          },
+          {
+            "name": "action",
+            "desc": ""
+          },
+          {
+            "name": "papa",
+            "desc": ""
+          },
+          {
+            "name": "selectedPath",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "RecurseNode",
+        "desc": "",
+        "args": [
+          {
+            "name": "node",
+            "desc": ""
+          },
+          {
+            "name": "papa",
+            "desc": ""
+          },
+          {
+            "name": "action",
+            "desc": ""
+          },
+          {
+            "name": "selectedPath",
+            "desc": ""
+          },
+          {
+            "name": "expand",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "ImportCollectionTree",
+        "desc": "",
+        "args": [
+          {
+            "name": "collectionStr",
+            "desc": ""
+          },
+          {
+            "name": "action",
+            "desc": ""
+          },
+          {
+            "name": "selectedPath",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "ImportCollectionModal",
+        "desc": "",
+        "args": [
+          {
+            "name": "modalOpen",
+            "desc": ""
+          },
+          {
+            "name": "submit",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "validJSON",
+        "desc": "",
+        "args": [
+          {
+            "name": "i",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "usePostMateConnector",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "save",
+        "desc": "",
+        "args": [
+          {
+            "name": "c",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "read",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "line",
+        "desc": "",
+        "args": [
+          {
+            "name": "x",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "PostMate",
+        "desc": "",
+        "args": [
+          {
+            "name": "defaultPostmateCollection",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "getSelectedNode",
+        "desc": "",
+        "args": [
+          {
+            "name": "x",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "putPostmateCollection",
+        "desc": "",
+        "args": [
+          {
+            "name": "collection",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "addSelectedNode",
+        "desc": "",
+        "args": [
+          {
+            "name": "node",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "putSelectedNode",
+        "desc": "",
+        "args": [
+          {
+            "name": "node",
+            "desc": ""
+          },
+          {
+            "name": "path",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "putRequestContent",
+        "desc": "",
+        "args": [
+          {
+            "name": "x",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "importCollection",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "respond",
+        "desc": "",
+        "args": [
+          {
+            "name": "d",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "send",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "desc": ""
+          },
+          {
+            "name": "newValue",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "postChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "desc": ""
+          },
+          {
+            "name": "newValue",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "removeNode",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleInterviewModalClose",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "ImportCollectionModalConfig",
+        "desc": "",
+        "args": [
+          {
+            "name": "setState",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "omit": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/FormI9SignDocument/FormI9SignDocument.js",
+    "methods": [
+      {
+        "name": "FormI9SignDocument",
+        "desc": "",
+        "args": [
+          {
+            "name": "onProgressBarDetails",
+            "description": ""
+          },
+          {
+            "name": "onSuccess",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "fetchFormI9",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/HomeScreen/HomeScreen.js",
+    "methods": [
+      {
+        "name": "HomeScreen",
+        "desc": "renders the HomeScreen component",
+        "args": [
+          {
+            "name": "jestCards",
+            "description": "",
+            "desc": "used to support Jest testing",
+            "type": "array"
+          },
+          {
+            "name": "error",
+            "description": "",
+            "desc": "sets whether past app detail is in an error state (deprecate)",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "name": "isFinished",
+        "desc": "returns whether a card action state is complete",
+        "args": [
+          {
+            "name": "card",
+            "description": "",
+            "desc": "card to evaluate",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "record",
+        "desc": "sets progress of the displayed cards",
+        "args": [
+          {
+            "name": "items",
+            "description": "",
+            "desc": "in-memory cards to compare to",
+            "type": "array"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "home screen applicant dashboard",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/HomeScreen/HomeScreenBanner/HomeScreenBanner.js",
+    "methods": [
+      {
+        "name": "HomeScreenBanner",
+        "desc": "renders the HomeScreenBanner component",
+        "args": []
+      }
+    ],
+    "expanded": false,
+    "desc": "shows the blue background for the home screen",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/HomeScreen/HomeScreenContent.js",
+    "methods": [],
+    "desc": "contains global variables for HomeScreen and its components",
+    "updated": true,
+    "expanded": false
+  },
+  {
+    "path": "tango-associate-ui/src/components/HomeScreen/IncompleteApplicationDialog/IncompleteApplicationDialog.js",
+    "methods": [
+      {
+        "name": "IncompleteApplicationDialog",
+        "desc": "renders the IncompleteApplicationDialog component",
+        "args": [
+          {
+            "name": "openInterviewModal",
+            "description": "",
+            "desc": "sets whether dialog is open"
+          },
+          {
+            "name": "submitAnswer",
+            "description": "",
+            "desc": "sends user response to the calling container"
+          }
+        ]
+      },
+      {
+        "name": "handleInterviewModalClickOpen",
+        "desc": "fires when modal is opened",
+        "args": []
+      },
+      {
+        "name": "handleInterviewModalClose",
+        "desc": "fires when modal is closed",
+        "args": []
+      },
+      {
+        "name": "handleInterviewModalRadioChange",
+        "desc": "fires when user selects an application option",
+        "args": [
+          {
+            "name": "event",
+            "description": "",
+            "desc": "event passed from the radio buttons"
+          }
+        ]
+      },
+      {
+        "name": "IncompleteApplicationDialogConfig",
+        "desc": "configures a state setter method to open the dialog",
+        "args": [
+          {
+            "name": "make",
+            "description": "",
+            "desc": "set setter method"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "dialog showing application options of an incomplete application",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/IconSelectionButton/IconSelectionButton.js",
+    "methods": [
+      {
+        "name": "IconSelectionButton",
+        "desc": "renders the IconSelectionButton component",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component"
+          }
+        ]
+      },
+      {
+        "name": "IconSelectionButtonContent",
+        "desc": "content of the button",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "single icon button card with text",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/IndustrySelector/IndustrySelector.js",
+    "methods": [
+      {
+        "name": "IndustrySelector",
+        "desc": "renders the IndustrySelector component",
+        "args": [
+          {
+            "name": "select",
+            "description": "",
+            "desc": "passing user selection to the calling component",
+            "type": "function"
+          },
+          {
+            "name": "initial",
+            "description": "",
+            "desc": "initial value of the component",
+            "type": "string"
+          },
+          {
+            "name": "debugValue",
+            "description": "",
+            "desc": "used to support Jest testing",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "name": "handleChange",
+        "desc": "fires when the user select an option",
+        "args": [
+          {
+            "name": "event",
+            "description": "",
+            "desc": "event passed from the select box",
+            "type": "object"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "dropdown list of industries",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/JobReadiness/JobReadinessCardLayout/JobReadinessCardLayout.js",
+    "methods": [
+      {
+        "name": "InnerContent",
+        "desc": "renders the InnerContent component",
+        "args": [
+          {
+            "name": "small",
+            "description": "",
+            "desc": "sets whether UI should display in mobile view"
+          },
+          {
+            "name": "record",
+            "description": "",
+            "desc": "callback function to record card readiness state"
+          },
+          {
+            "name": "complete",
+            "description": "",
+            "desc": "true when the user application step has been completed"
+          }
+        ]
+      },
+      {
+        "name": "ProgressHeaderText",
+        "desc": "renders the ProgressHeaderText component",
+        "args": [
+          {
+            "name": "value",
+            "description": "",
+            "desc": "progress value of user application"
+          }
+        ]
+      },
+      {
+        "name": "JobReadinessCardLayout",
+        "desc": "renders the JobReadinessCardLayout component",
+        "args": [
+          {
+            "name": "operationComplete",
+            "description": "",
+            "desc": "true when the user application step has been completed"
+          },
+          {
+            "name": "value",
+            "description": "",
+            "desc": "progress value of user application"
+          },
+          {
+            "name": "small",
+            "description": "",
+            "desc": "sets whether UI should display in mobile view"
+          },
+          {
+            "name": "record",
+            "description": "",
+            "desc": "callback function to record card readiness state"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "displays the job readiness grid",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/JobReadiness/ReadinessActionCard/ReadinessActionCard.js",
+    "methods": [
+      {
+        "name": "ReadinessActionChip",
+        "desc": "read-only button to show operation state",
+        "args": [
+          {
+            "name": "time",
+            "description": "",
+            "desc": "time value to display"
+          },
+          {
+            "name": "complete",
+            "description": "",
+            "desc": "returns operation state to the calling component"
+          },
+          {
+            "name": "progress",
+            "description": "",
+            "desc": "progress value of the current operation"
+          },
+          {
+            "name": "locked",
+            "description": "",
+            "desc": "sets whether current operation is locked"
+          }
+        ]
+      },
+      {
+        "name": "working",
+        "desc": "returns whether current operation is in progress",
+        "args": [
+          {
+            "name": "progress",
+            "description": "",
+            "desc": "progress value of the current operation"
+          }
+        ]
+      },
+      {
+        "name": "finished",
+        "desc": "returns whether current operation is completed",
+        "args": [
+          {
+            "name": "progress",
+            "description": "",
+            "desc": "progress value of the current operation"
+          }
+        ]
+      },
+      {
+        "name": "notstarted",
+        "desc": "returns whether current operation has not been started",
+        "args": [
+          {
+            "name": "progress",
+            "description": "",
+            "desc": "progress value of the current operation"
+          }
+        ]
+      },
+      {
+        "name": "ReadinessActionCard",
+        "desc": "renders the ReadinessActionCard component",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component"
+          }
+        ]
+      },
+      {
+        "name": "complete",
+        "desc": "returns operation state to the calling component",
+        "args": []
+      }
+    ],
+    "expanded": false,
+    "desc": "displays the state of the current operation",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/JobReadiness/ReadinessActionGrid/ReadinessActionGrid.js",
+    "methods": [
+      {
+        "name": "ReadinessActionGrid",
+        "desc": "renders the ReadinessActionGrid component",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component"
+          }
+        ]
+      },
+      {
+        "name": "setFinished",
+        "desc": "set operation progress to 100%",
+        "args": [
+          {
+            "name": "card",
+            "description": "",
+            "desc": "ref to job readiness operation"
+          }
+        ]
+      },
+      {
+        "name": "done",
+        "desc": "sets done status of the selected card",
+        "args": [
+          {
+            "name": "d",
+            "description": "",
+            "desc": "TODO: text displayed on the card (used for matching, fix this)"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "displays a grid of ReadinessActionCard objects",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/JobReadiness/ReadinessActionList/ReadinessActionList.js",
+    "methods": [
+      {
+        "name": "ReadinessActionListItem",
+        "desc": "renders the ReadinessActionListItem component",
+        "args": [
+          {
+            "name": "last",
+            "description": "",
+            "desc": "true when this is the last item in the list"
+          },
+          {
+            "name": "card",
+            "description": "",
+            "desc": "job readiness operation to display"
+          },
+          {
+            "name": "complete",
+            "description": "",
+            "desc": "callback method to report operation state"
+          }
+        ]
+      },
+      {
+        "name": "ReadinessActionList",
+        "desc": "renders the ReadinessActionList component",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "displays a list of ReadinessActionCard objects",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/JobReadiness/ReadinessInfoCard/ReadinessInfoCard.js",
+    "methods": [
+      {
+        "name": "ReadinessInfoCardPanel",
+        "desc": "renders the ReadinessInfoCardPanel component",
+        "args": [
+          {
+            "name": "header",
+            "description": "",
+            "desc": "title to be displayed at the head of the panel"
+          },
+          {
+            "name": "items",
+            "description": "",
+            "desc": "items to display in the panel"
+          }
+        ]
+      },
+      {
+        "name": "ReadinessInfoCard",
+        "desc": "renders the ReadinessInfoCard component",
+        "args": []
+      }
+    ],
+    "expanded": false,
+    "desc": "card showing current state of a job readiness step",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/JobReadiness/ReadinessSectionHeader/ReadinessSectionHeader.js",
+    "methods": [
+      {
+        "name": "ReadinessSectionHeader",
+        "desc": "renders the ReadinessSectionHeader component",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "common title text component",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Preferences/MinimumPayPref.js",
+    "methods": [
+      {
+        "name": "MinimumPayPref",
+        "desc": "",
+        "args": [
+          {
+            "name": "onSuccess",
+            "description": ""
+          },
+          {
+            "name": "onProgressBarDetails",
+            "description": ""
+          },
+          {
+            "name": "profileView",
+            "description": ""
+          },
+          {
+            "name": "payInformation",
+            "description": ""
+          },
+          {
+            "name": "setEditPayInformation",
+            "description": ""
+          },
+          {
+            "name": "setPayInformation",
+            "description": ""
+          },
+          {
+            "name": "disablePadding",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleTabsChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          },
+          {
+            "name": "selectedTabId",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleKeyDown",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleInputChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleProfileViewSave",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleProfileViewCancel",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleSaveForLater",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Preferences/TravelDistancePref.js",
+    "methods": [
+      {
+        "name": "TravelDistancePref",
+        "desc": "",
+        "args": [
+          {
+            "name": "onSuccess",
+            "description": ""
+          },
+          {
+            "name": "onProgressBarDetails",
+            "description": ""
+          },
+          {
+            "name": "profileView",
+            "description": ""
+          },
+          {
+            "name": "setEditTravelInformation",
+            "description": ""
+          },
+          {
+            "name": "setTravelInformation",
+            "description": ""
+          },
+          {
+            "name": "disablePadding",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleProfileViewCancel",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleContinue",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "replaceWithJSX",
+        "desc": "",
+        "args": [
+          {
+            "name": "str",
+            "desc": ""
+          },
+          {
+            "name": "find",
+            "desc": ""
+          },
+          {
+            "name": "replace",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "handleProfileViewSave",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "handleSaveForLater",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Preferences/WorkAvailabilityPref.js",
+    "methods": [
+      {
+        "name": "WorkAvailabilityPref",
+        "desc": "",
+        "args": [
+          {
+            "name": "onSuccess",
+            "description": ""
+          },
+          {
+            "name": "onProgressBarDetails",
+            "description": ""
+          },
+          {
+            "name": "profileView",
+            "description": ""
+          },
+          {
+            "name": "profileEdit",
+            "description": ""
+          },
+          {
+            "name": "setEditAvailabilityInformation",
+            "description": ""
+          },
+          {
+            "name": "disablePadding",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleShiftAvailability",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleShiftPreference",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleProfileViewSave",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleProfileViewCancel",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleSaveForLater",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/PrivateRoute/PrivateRoute.js",
+    "methods": [
+      {
+        "name": "PrivateRoute",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Profile/ChangeEmail.js",
+    "methods": [
+      {
+        "name": "handleChangeEmail",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleEmailChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleEmailBlur",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "validateEmail",
+        "desc": "",
+        "args": [
+          {
+            "name": "email",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleSubmit",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "ChangeEmail",
+        "desc": "",
+        "args": [
+          {
+            "name": "config",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Profile/ChangePassword.js",
+    "methods": [
+      {
+        "name": "handleChangePassword",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleSubmit",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "ChangePassword",
+        "desc": "",
+        "args": [
+          {
+            "name": "config",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Profile/ChangePhone.js",
+    "methods": [
+      {
+        "name": "handleChangePhone",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handlePhoneChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handlePhoneOnBlur",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "validatePhoneNumber",
+        "desc": "",
+        "args": [
+          {
+            "name": "phoneNumber",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleSubmit",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "ChangePhone",
+        "desc": "",
+        "args": [
+          {
+            "name": "config",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Profile/ProfileDocuments.js",
+    "methods": [
+      {
+        "name": "ProfileDocuments",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Profile/ProfileJobPreference.js",
+    "methods": [
+      {
+        "name": "ProfileJobPreference",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Profile/ProfileLinks.js",
+    "methods": [
+      {
+        "name": "ProfileLinks",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Profile/ProfileMyInformation.js",
+    "methods": [
+      {
+        "name": "ProfileMyInformation",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Profile/ProfileSettings.js",
+    "methods": [
+      {
+        "name": "ProfileSettings",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Profile/ProfileWorkHistory.js",
+    "methods": [
+      {
+        "name": "ProfileWorkHistory",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Profile/VerifyEmail.js",
+    "methods": [
+      {
+        "name": "handleVerifyEmail",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleVerifyEmailSubmit",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "getStepContent",
+        "desc": "",
+        "args": [
+          {
+            "name": "step",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleConfirmCodeChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleContinue",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleCancel",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleContinueState",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "VerifyEmail",
+        "desc": "",
+        "args": [
+          {
+            "name": "config",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Profile/VerifyPhone.js",
+    "methods": [
+      {
+        "name": "handleVerifyPhone",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleVerifyPhoneSubmit",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "getStepContent",
+        "desc": "",
+        "args": [
+          {
+            "name": "step",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleConfirmCodeChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleContinue",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleCancel",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleContinueState",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "VerifyPhone",
+        "desc": "",
+        "args": [
+          {
+            "name": "config",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/ProgressBarWrapper/ProgressBarWrapper.js",
+    "methods": [
+      {
+        "name": "ProgressBarWrapper",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleStepChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "params",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "HandleCurrentScreen",
+        "desc": "",
+        "args": [
+          {
+            "name": "activeStep",
+            "description": ""
+          },
+          {
+            "name": "screens",
+            "description": ""
+          },
+          {
+            "name": "onSuccess",
+            "description": ""
+          },
+          {
+            "name": "onDetails",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "build",
+        "desc": "",
+        "args": [
+          {
+            "name": "screens",
+            "description": ""
+          },
+          {
+            "name": "details",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleNext",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleBack",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/ProgressBarWrapper/ProgressView.js",
+    "methods": [
+      {
+        "name": "Progress",
+        "desc": "",
+        "args": [
+          {
+            "name": "screens",
+            "description": ""
+          },
+          {
+            "name": "activeStep",
+            "description": ""
+          },
+          {
+            "name": "onGoBack",
+            "description": ""
+          },
+          {
+            "name": "details",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/ProgressBarWrapper/ScreenForTesting.js",
+    "methods": [
+      {
+        "name": "ScreenForTesting",
+        "desc": "",
+        "args": [
+          {
+            "name": "onSuccess",
+            "description": ""
+          },
+          {
+            "name": "onProgressBarDetails",
+            "description": ""
+          },
+          {
+            "name": "activeStep",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Redirects/Redirects.js",
+    "methods": [
+      {
+        "name": "Redirects",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/ResumeBuilder/ResumeActionSnackBar/ResumeActionSnackBar.js",
+    "methods": [
+      {
+        "name": "ResumeActionSnackBar",
+        "desc": "renders the ResumeActionSnackBar component",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "ResumeActionSnackBarConfig",
+        "desc": "configures a state setter method to open the snackbar",
+        "args": [
+          {
+            "name": "make",
+            "description": "",
+            "desc": "state setter method",
+            "type": "function"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "snack bar to display when resume items are deleted",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/ResumeBuilder/ResumeBuilder.js",
+    "methods": [
+      {
+        "name": "ExperienceButton",
+        "desc": "renders the ExperienceButton component",
+        "args": [
+          {
+            "name": "enabled",
+            "description": "",
+            "desc": "sets whether button is enabled",
+            "type": "boolean"
+          },
+          {
+            "name": "click",
+            "description": "",
+            "desc": "click action for the button",
+            "type": "function"
+          }
+        ]
+      },
+      {
+        "name": "NoPositionsBlock",
+        "desc": "renders the NoPositionsBlock component",
+        "args": []
+      },
+      {
+        "name": "guid",
+        "desc": "creates a unique identifier",
+        "args": []
+      },
+      {
+        "name": "rank",
+        "desc": "sorts jobs by entry order",
+        "args": [
+          {
+            "name": "a",
+            "description": "",
+            "desc": "left ordinal",
+            "type": "object"
+          },
+          {
+            "name": "b",
+            "description": "",
+            "desc": "right ordinal",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "ResumeBuilder",
+        "desc": "renders the ResumeBuilder component",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "setEditing",
+        "desc": "sets whether edit mode is on",
+        "args": [
+          {
+            "name": "mode",
+            "description": "",
+            "desc": "updated mode",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "name": "omit",
+        "desc": "removes a job from the list",
+        "args": [
+          {
+            "name": "id",
+            "description": "",
+            "desc": "id of the job",
+            "type": "number"
+          }
+        ]
+      },
+      {
+        "name": "undo",
+        "desc": "undoes most recent delete action",
+        "args": []
+      },
+      {
+        "name": "savePosition",
+        "desc": "saves a job to the list",
+        "args": [
+          {
+            "name": "job",
+            "description": "",
+            "desc": "job to save",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "commitJobs",
+        "desc": "sends the job list to the calling component",
+        "args": []
+      },
+      {
+        "name": "collection",
+        "desc": "",
+        "args": [
+          {
+            "name": "showing\n      ? positions.current?.concat( readOnly: false",
+            "desc": ""
+          },
+          {
+            "name": "id: guid()",
+            "desc": ""
+          },
+          {
+            "name": "fresh: !0 )\n      : positions.current",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "dropPosition",
+        "desc": "removes a job from the list",
+        "args": [
+          {
+            "name": "job",
+            "desc": "job to remove",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "saveJob",
+        "desc": "adds a job to the list",
+        "args": [
+          {
+            "name": "job",
+            "desc": "job to add",
+            "type": "object"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "displays an array of resume edit forms",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/ResumeBuilder/ResumeBuilderAppBar/ResumeBuilderAppBar.js",
+    "methods": [
+      {
+        "name": "ResumeBuilderAppBar",
+        "desc": "renders the ResumeBuilderAppBar component",
+        "args": [
+          {
+            "name": "close",
+            "description": "",
+            "desc": "fires when resume builder is closed",
+            "type": "function"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "app bar to show with resume builder",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/ResumeBuilder/ResumeBuilderModal/ResumeBuilderModal.js",
+    "methods": [
+      {
+        "name": "ResumeBuilderModal",
+        "desc": "renders the ResumeBuilderModal component",
+        "args": [
+          {
+            "name": "modalOpen",
+            "description": "",
+            "desc": "sets whether the modal is open",
+            "type": "boolean"
+          },
+          {
+            "name": "send",
+            "description": "",
+            "desc": "returns user response to the calling method",
+            "type": "function"
+          },
+          {
+            "name": "JobHistory",
+            "description": "",
+            "desc": "list of jobs to display in the resume builder",
+            "type": "array"
+          }
+        ]
+      },
+      {
+        "name": "setExperience",
+        "desc": "updates the in-memory list of jobs",
+        "args": [
+          {
+            "name": "value",
+            "description": "",
+            "desc": "updated list of jobs",
+            "type": "array"
+          }
+        ]
+      },
+      {
+        "name": "answer",
+        "desc": "sends user response to the calling method",
+        "args": []
+      },
+      {
+        "name": "ResumeBuilderModalConfig",
+        "desc": "configures a state setter method to open the modal",
+        "args": [
+          {
+            "name": "make",
+            "description": "",
+            "desc": "state setter method",
+            "type": "function"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "displays the resume builder wrapped in a Drawer component",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/ResumeDetailRow/ResumeDetailRow.js",
+    "methods": [
+      {
+        "name": "ResumeDetailRow",
+        "desc": "renders the ResumeDetailRow component",
+        "args": [
+          {
+            "name": "position",
+            "description": "",
+            "desc": "job to parse"
+          },
+          {
+            "name": "property",
+            "description": "",
+            "desc": "property to display"
+          }
+        ]
+      },
+      {
+        "name": "of",
+        "desc": "shows a formatted date when the date is valid",
+        "args": [
+          {
+            "name": "when",
+            "description": "",
+            "desc": "date to parse"
+          }
+        ]
+      },
+      {
+        "name": "ToDate",
+        "desc": "shows the date or 'Present' if this is a current job",
+        "args": [
+          {
+            "name": "when",
+            "description": "",
+            "desc": "date to parse"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "renders a single field of a job object",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/ResumeEditForm/ResumeContent.js",
+    "methods": [
+      {
+        "name": "ResumeComponents",
+        "desc": "renders the ResumeComponents component",
+        "args": [
+          {
+            "name": "employment",
+            "description": "",
+            "desc": "job object to display"
+          },
+          {
+            "name": "classes",
+            "description": "",
+            "desc": "makeStyles classes object"
+          },
+          {
+            "name": "changeJob",
+            "description": "",
+            "desc": "update field using element value"
+          },
+          {
+            "name": "updateJob",
+            "description": "",
+            "desc": "update field using employment object value"
+          },
+          {
+            "name": "commitJob",
+            "description": "",
+            "desc": "save job object"
+          },
+          {
+            "name": "cancelJob",
+            "description": "",
+            "desc": "cancel edit operation"
+          },
+          {
+            "name": "current = false",
+            "description": "",
+            "desc": "sets whether user is currently working here"
+          },
+          {
+            "name": "finished",
+            "description": "",
+            "desc": "sets whether all required fields are completed"
+          },
+          {
+            "name": "buttons",
+            "description": "",
+            "desc": "dynamic button text"
+          },
+          {
+            "name": "debugMode",
+            "description": "",
+            "desc": "used to support jest testing"
+          },
+          {
+            "name": "allowCancel",
+            "description": "",
+            "desc": "sets whether cancelling is allowed for this form"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "content for the resume edit form",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/ResumeEditForm/ResumeEditForm.js",
+    "methods": [
+      {
+        "name": "ResumeEditViewButtons",
+        "desc": "renders the ResumeEditViewButtons component",
+        "args": [
+          {
+            "name": "job",
+            "description": "",
+            "desc": "job to display"
+          },
+          {
+            "name": "setLocked",
+            "description": "",
+            "desc": "method ref to toggle edit mode"
+          },
+          {
+            "name": "dropJob",
+            "description": "",
+            "desc": "method ref to toggle delete job"
+          }
+        ]
+      },
+      {
+        "name": "ResumeEditForm",
+        "desc": "renders the ResumeEditForm component",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component"
+          }
+        ]
+      },
+      {
+        "name": "complete",
+        "desc": "returns whether all required fields have been completed",
+        "args": []
+      },
+      {
+        "name": "closeJob",
+        "desc": "closes job edit mode",
+        "args": []
+      },
+      {
+        "name": "commitJob",
+        "desc": "saves job user input",
+        "args": []
+      },
+      {
+        "name": "updateJob",
+        "desc": "returns a method to update job by element value",
+        "args": [
+          {
+            "name": "field",
+            "description": "",
+            "desc": "field to udpate"
+          }
+        ]
+      },
+      {
+        "name": "changeJob",
+        "desc": "updates job by input value",
+        "args": [
+          {
+            "name": "field",
+            "description": "",
+            "desc": "field to udpate"
+          },
+          {
+            "name": "value",
+            "description": "",
+            "desc": "new value for the field"
+          }
+        ]
+      },
+      {
+        "name": "setJob",
+        "desc": "sets current job",
+        "args": [
+          {
+            "name": "j",
+            "description": "",
+            "desc": "job object"
+          }
+        ]
+      },
+      {
+        "name": "askFirst",
+        "desc": "confirm user delete action",
+        "args": []
+      }
+    ],
+    "desc": "form to edit resume objects",
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/ResumeOptionList/ResumeOptionList.js",
+    "methods": [
+      {
+        "name": "ResumeOptionList",
+        "desc": "renders the ResumeOptionList component",
+        "args": [
+          {
+            "name": "Click",
+            "description": "",
+            "desc": "component onClick event"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Safety/CheckAnswerStatus.js",
+    "methods": [
+      {
+        "name": "CheckAnswerStatus",
+        "desc": "",
+        "args": [
+          {
+            "name": "question",
+            "description": ""
+          },
+          {
+            "name": "answer",
+            "description": ""
+          },
+          {
+            "name": "classes",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Safety/Conclusion.js",
+    "methods": [
+      {
+        "name": "Conclusion",
+        "desc": "",
+        "args": [
+          {
+            "name": "onSuccess",
+            "description": ""
+          },
+          {
+            "name": "onProgressBarDetails",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "checkCompleted",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          },
+          {
+            "name": "aIndex",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Safety/KnowledgeCheck1.js",
+    "methods": [
+      {
+        "name": "KnowledgeCheck1",
+        "desc": "",
+        "args": [
+          {
+            "name": "onSuccess",
+            "description": ""
+          },
+          {
+            "name": "onProgressBarDetails",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "checkCompleted",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          },
+          {
+            "name": "qIndex",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Safety/KnowledgeCheck2.js",
+    "methods": [
+      {
+        "name": "KnowledgeCheck2",
+        "desc": "",
+        "args": [
+          {
+            "name": "onSuccess",
+            "description": ""
+          },
+          {
+            "name": "onProgressBarDetails",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "checkCompleted",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          },
+          {
+            "name": "qIndex",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Safety/KnowledgeCheckTestUtils.js",
+    "methods": [
+      {
+        "name": "KnowledgeCheckRenderQuestionsTest",
+        "desc": "",
+        "args": [
+          {
+            "name": "totalNumberOfQuestions",
+            "description": ""
+          },
+          {
+            "name": "questions",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "KnowledgeCheckCorrectAndIncorrectTest",
+        "desc": "",
+        "args": [
+          {
+            "name": "totalNumberOfQuestions",
+            "description": ""
+          },
+          {
+            "name": "questions",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Safety/KnowledgeCheckUtils.js",
+    "methods": [
+      {
+        "name": "handleAnswerBackgroundChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "answers",
+            "description": ""
+          },
+          {
+            "name": "classes",
+            "description": ""
+          },
+          {
+            "name": "q",
+            "description": ""
+          },
+          {
+            "name": "qIndex",
+            "description": ""
+          },
+          {
+            "name": "option",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Safety/SafetyVideo1.js",
+    "methods": [
+      {
+        "name": "SafetyVideo1",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "enableContinue",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Safety/SafetyVideo2.js",
+    "methods": [
+      {
+        "name": "SafetyVideo2",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "enableContinue",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "onContinueClick",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Safety/knowledgeCheckStyles.js",
+    "methods": [
+      {
+        "name": "knowledgeCheckStyles",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/Safety/useVideoIds.js",
+    "methods": [
+      {
+        "name": "useVideoIds",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "getVideoId",
+        "desc": "",
+        "args": [
+          {
+            "name": "url",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "omit": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/SafetyAssessment/SafetyAcknowledgement.js",
+    "methods": [
+      {
+        "name": "SafetyAcknowledgement",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "checkCompleted",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          },
+          {
+            "name": "aIndex",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true,
+    "expanded": false
+  },
+  {
+    "path": "tango-associate-ui/src/components/SafetyAssessment/SafetyAssessment.js",
+    "methods": [
+      {
+        "name": "SafetyAssessment",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "getStepContent",
+        "desc": "",
+        "args": [
+          {
+            "name": "step",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleNext",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "totalSteps",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "completedSteps",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleBack",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleStep",
+        "desc": "",
+        "args": [
+          {
+            "name": "step",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleComplete",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleReset",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true,
+    "expanded": false
+  },
+  {
+    "path": "tango-associate-ui/src/components/SafetyAssessment/SafetyQuiz.js",
+    "methods": [
+      {
+        "name": "SafetyQuiz",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "checkCompleted",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          },
+          {
+            "name": "qIndex",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true,
+    "expanded": false
+  },
+  {
+    "path": "tango-associate-ui/src/components/SelfIdentificationSurvey/ProtectedVeteransExpanation.js",
+    "methods": [
+      {
+        "name": "ProtectedVeteransExplanation",
+        "desc": "renders the ProtectedVeteransExplanation component",
+        "args": []
+      }
+    ],
+    "expanded": false,
+    "desc": "static text to show for protected vets",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/SelfIdentificationSurvey/SelfIdentificationSurvey.js",
+    "methods": [
+      {
+        "name": "SelfIdentificationSurvey",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleMilitaryChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleProtectedVeteran",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "protectedVeteranLabel",
+        "desc": "",
+        "args": [
+          {
+            "name": "<>\n      <Typography>\n        I identify as one or more of the following classifications of protected\n        veterans\n      </Typography>\n      <ul>\n        <li>Disabled veteran</li>\n        <li>Recently separated veteran</li>\n        <li>Active duty wartime or campaign badge veteran</li>\n        <li>Armed Forces service medal veteran</li>\n      </ul>\n    </>",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "onGenderChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "onRaceChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "handleChange",
+        "desc": "",
+        "args": [
+          {
+            "name": "event",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "handleButtonDisabled",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "expanded": false,
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/WaitingSpinner/WaitingSpinner.js",
+    "methods": [
+      {
+        "name": "WaitingSpinner",
+        "desc": "renders the WaitingSpinner component",
+        "args": [
+          {
+            "name": "icon",
+            "description": "",
+            "desc": "icon to display in the spinner"
+          },
+          {
+            "name": "debug",
+            "description": "",
+            "desc": "supports Jest testing"
+          },
+          {
+            "name": "suppress",
+            "description": "",
+            "desc": "suppress css spinning animation"
+          },
+          {
+            "name": "color",
+            "description": "",
+            "desc": "color of the spinner (default = black)"
+          }
+        ]
+      },
+      {
+        "name": "handleClose",
+        "desc": "fires when spinner closes",
+        "args": []
+      }
+    ],
+    "expanded": false,
+    "desc": "global spinner with backdrop",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/WorkHistory/AssignmentsCard/AssignmentsCard.js",
+    "methods": [
+      {
+        "name": "AssignmentPrimary",
+        "desc": "renders the primary text of the component",
+        "args": [
+          {
+            "name": "job",
+            "description": "",
+            "desc": "job to display"
+          }
+        ]
+      },
+      {
+        "name": "AssignmentSecondary",
+        "desc": "renders the secondary text of the component",
+        "args": [
+          {
+            "name": "job",
+            "description": "",
+            "desc": "job to display"
+          }
+        ]
+      },
+      {
+        "name": "AssignmentItem",
+        "desc": "renders the AssignmentItem component",
+        "args": [
+          {
+            "name": "job",
+            "description": "",
+            "desc": "job to display"
+          }
+        ]
+      },
+      {
+        "name": "AssignmentsCard",
+        "desc": "renders the AssignmentsCard component",
+        "args": [
+          {
+            "name": "assignments",
+            "description": "",
+            "desc": "list of job assignments to display"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "card displaying user job assignments",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/WorkHistory/ExperienceCard/ExperienceCard.js",
+    "methods": [
+      {
+        "name": "CardFooter",
+        "desc": "renders the CardFooter component",
+        "args": []
+      },
+      {
+        "name": "ExperienceCard",
+        "desc": "renders the ExperienceCard component",
+        "args": [
+          {
+            "name": "props",
+            "description": "",
+            "desc": "properties of the component"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "card displaying user job experience",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/components/WorkHistory/Modal/JobDetailModal/JobDetailModal.js",
+    "methods": [
+      {
+        "name": "JobDetailModal",
+        "desc": "display details of the currently selected job",
+        "args": [
+          {
+            "name": "modalOpen",
+            "desc": "true when the modal is open",
+            "type": "boolean"
+          },
+          {
+            "name": "job",
+            "desc": "job to display",
+            "type": "object"
+          },
+          {
+            "name": "submit",
+            "desc": "sends user response to the calling component",
+            "type": "function"
+          },
+          {
+            "name": "testing",
+            "desc": "used to support Jest testing",
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "name": "handleJobDetailModalClose",
+        "desc": "fires when the modal closes",
+        "args": []
+      },
+      {
+        "name": "JobDetailModalContent",
+        "desc": "renders the JobDetailModalContent component",
+        "args": [
+          {
+            "name": "job",
+            "desc": "job to display",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "JobDetailModalConfig",
+        "desc": "configures a state setter method to open the modal",
+        "args": [
+          {
+            "name": "setState",
+            "desc": "state setter method",
+            "type": "function"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "opens to display the currently selected job"
+  },
+  {
+    "path": "tango-associate-ui/src/components/WorkHistory/MyApplicationsCard/MyApplicationsCard.js",
+    "methods": [
+      {
+        "name": "PaginationBar",
+        "desc": "",
+        "args": [
+          {
+            "name": "startPage",
+            "desc": ""
+          },
+          {
+            "name": "pageSize",
+            "desc": ""
+          },
+          {
+            "name": "collection",
+            "desc": ""
+          },
+          {
+            "name": "gotoPage",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "MyApplicationsCard",
+        "desc": "",
+        "args": []
+      },
+      {
+        "name": "gotoPage",
+        "desc": "",
+        "args": [
+          {
+            "name": "i",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "display card for list of user applications"
+  },
+  {
+    "path": "tango-associate-ui/src/components/WorkHistory/WorkHistoryLayout/WorkHistoryLayout.js",
+    "methods": [
+      {
+        "name": "WorkHistoryLayout",
+        "desc": "renders the WorkHistoryLayout component",
+        "args": [
+          {
+            "name": "JobHistory",
+            "description": "",
+            "desc": "list of jobs to display",
+            "type": "array"
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "displays the Profile layout for the WorkHistory page",
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/content/Dashboard/Dashboard.js",
+    "methods": [
+      {
+        "name": "Dashboard",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true,
+    "expanded": false
+  },
+  {
+    "path": "tango-associate-ui/src/content/Home/HomePage.js",
+    "methods": [
+      {
+        "name": "HomePage",
+        "desc": "",
+        "args": [
+          {
+            "name": "props",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/content/Profile/Profile.js",
+    "methods": [
+      {
+        "name": "Profile",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/controllers/APIConnector.js",
+    "methods": [
+      {
+        "name": "useAPIConnector",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "expanded": false,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/controllers/ApplicationService.js",
+    "methods": [],
+    "expanded": false,
+    "omit": true
+  },
+  {
+    "path": "tango-associate-ui/src/controllers/HTTPRequestController.js",
+    "methods": [
+      {
+        "name": "requestWrapper",
+        "desc": "",
+        "args": [
+          {
+            "name": "endpoint",
+            "desc": ""
+          },
+          {
+            "name": "options",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/controllers/OrchestrationController.js",
+    "methods": [],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/controllers/OrchestrationProvider.js",
+    "methods": [
+      {
+        "name": "OrchestrationProvider",
+        "desc": "",
+        "args": [
+          {
+            "name": "children",
+            "description": ""
+          },
+          {
+            "name": "config = defConf",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "ApplicationProvider",
+        "desc": "",
+        "args": [
+          {
+            "name": "children",
+            "desc": ""
+          },
+          {
+            "name": "config = defConf",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/hooks/useQuestionnaireContext.js",
+    "methods": [
+      {
+        "name": "complete",
+        "desc": "",
+        "args": [
+          {
+            "name": "onSuccess",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "save",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true
+  },
+  {
+    "path": "tango-associate-ui/src/hooks/useURLParams.js",
+    "methods": [
+      {
+        "name": "getParameters",
+        "desc": "",
+        "args": [
+          {
+            "name": "search",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "useURLParams",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/i18nConfig.js",
+    "methods": [
+      {
+        "name": "initialize",
+        "desc": "",
+        "args": [
+          {
+            "name": "i18n",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/mocks/browser.js",
+    "methods": [],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/mocks/handlers.js",
+    "methods": [],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/mocks/server.js",
+    "methods": [],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/render.js",
+    "methods": [
+      {
+        "name": "themify",
+        "desc": "wraps a component in a ThemeProvider tag",
+        "args": [
+          {
+            "name": "children",
+            "description": "",
+            "desc": "child components to render",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "renderWithAuthContext",
+        "desc": "wraps a component in an AuthContext.Provider tag",
+        "args": [
+          {
+            "name": "ui",
+            "description": "",
+            "desc": "component to display",
+            "type": "object"
+          },
+          {
+            "name": "providerProps",
+            "description": "",
+            "desc": "auth provider properties",
+            "type": "object"
+          },
+          {
+            "name": "...renderOptions",
+            "description": "",
+            "desc": "render options",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "createWrapper",
+        "desc": "",
+        "args": [
+          {
+            "name": "providerProps",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "expanded": false,
+    "desc": "component wrapper to support Jest testing",
+    "updated": true,
+    "omit": true
+  },
+  {
+    "path": "tango-associate-ui/src/serviceWorker.js",
+    "methods": [
+      {
+        "name": "register",
+        "desc": "",
+        "args": [
+          {
+            "name": "config",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "registerValidSW",
+        "desc": "",
+        "args": [
+          {
+            "name": "swUrl",
+            "description": ""
+          },
+          {
+            "name": "config",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "checkValidServiceWorker",
+        "desc": "",
+        "args": [
+          {
+            "name": "swUrl",
+            "description": ""
+          },
+          {
+            "name": "config",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "unregister",
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/setupTests.js",
+    "methods": [
+      {
+        "name": "localStorageMock",
+        "desc": "",
+        "args": [
+          {
+            "name": "() => \n  let store = {;\n\n  return {\n    getItem(key) {\n      return store[key] || null;\n    }",
+            "description": ""
+          },
+          {
+            "name": "setItem(key",
+            "description": ""
+          },
+          {
+            "name": "value) {\n      store[key] = value.toString();\n    }",
+            "description": ""
+          },
+          {
+            "name": "removeItem(key) {\n      delete store[key];\n    }",
+            "description": ""
+          },
+          {
+            "name": "clear() {\n      store = {};\n    }",
+            "description": ""
+          },
+          {
+            "name": "};\n}",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/shellConfig.js",
+    "methods": [],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/stories/assets/jobhistory.js",
+    "methods": [],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/teardownTests.js",
+    "methods": [
+      {
+        "desc": "",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true
+  },
+  {
+    "path": "tango-associate-ui/src/utils.js",
+    "methods": [
+      {
+        "name": "capitalize",
+        "desc": "Capitalizes a string",
+        "args": [
+          {
+            "name": "s",
+            "description": "",
+            "type": "string",
+            "desc": "value to transform"
+          }
+        ]
+      },
+      {
+        "name": "jcss",
+        "desc": "parses an object into a css selector",
+        "args": [
+          {
+            "name": "i",
+            "description": "",
+            "desc": "object to parse",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "paramsToObject",
+        "desc": "",
+        "args": [
+          {
+            "name": "params",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "formatPhoneNumber",
+        "desc": "",
+        "args": [
+          {
+            "name": "phoneNumberString",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "noSubmit",
+        "desc": "calls a function while suppressing browser submit action",
+        "args": [
+          {
+            "name": "fn",
+            "description": "",
+            "desc": "optional function to execute",
+            "type": "object"
+          }
+        ]
+      },
+      {
+        "name": "makeId",
+        "desc": "",
+        "args": [
+          {
+            "name": "length",
+            "description": ""
+          },
+          {
+            "name": "characters = \"abcdef0123456789\"",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "randomNumberBetween",
+        "desc": "generate a random number between two numbers",
+        "args": [
+          {
+            "name": "min",
+            "description": "",
+            "type": "number",
+            "desc": "minimum value"
+          },
+          {
+            "name": "max",
+            "description": "",
+            "type": "number",
+            "desc": "maximum value"
+          }
+        ]
+      },
+      {
+        "name": "createRandomMockUser",
+        "desc": "creates a random mock user",
+        "args": []
+      }
+    ],
+    "omit": true,
+    "updated": true,
+    "expanded": false,
+    "desc": "provides global util functions"
+  }
+]
