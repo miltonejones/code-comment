@@ -9,6 +9,9 @@ export const CodeCommentGridStyles = makeStyles((theme) => ({
     width: "calc(100vw - 80px)",
     height: "75vh",
   },
+  MethodRow: {
+    padding: "8px 0",
+  },
   pre: {
     width: "90vw",
     overflow: "auto",
@@ -67,8 +70,11 @@ export const CodeCommentGridStyles = makeStyles((theme) => ({
   meth: {
     padding: "0 0 0 24px",
   },
-  methDesc: {
+  argDesc: {
     padding: "0 0 0 34px",
+  },
+  methDesc: {
+    padding: "0 0 0 32px",
   },
   text: {
     width: 620,

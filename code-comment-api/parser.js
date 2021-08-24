@@ -1,4 +1,5 @@
-const root = "/Users/miltonjones/Code/tango-test/";
+const app = require("./config");
+const root = app.config.ROOT;
 const fs = require("fs");
 exports.root = root;
 exports.getMethods = (text) => {

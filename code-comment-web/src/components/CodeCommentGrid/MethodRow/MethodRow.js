@@ -18,9 +18,15 @@ const MethodRow = ({
   last,
 }) => {
   const classes = CodeCommentGridStyles();
+  const TextBoxArgs = {
+    onChange: (e) => handleMethChange(file.path, meth.name, e),
+    placeholder: `[enter description for ${meth.name}]`,
+    initial: meth.desc,
+    set: set,
+  };
   return (
     <>
-      <li className={jcss({ odd, last })}>
+      <li className={jcss({ odd, last, [classes.MethodRow]: 1 })}>
         <div
           className={jcss({
             [classes.flex]: !0,
@@ -37,25 +43,28 @@ const MethodRow = ({
               [classes.nowrap]: !0,
             })}
           >
+            {/* method name */}
             &#119891; <b>{meth.name}</b>
           </div>
+
+          {/* description textbox */}
+
           <div
             className={jcss({
               [classes.text]: !0,
               collapsed: collapsed && !!markup,
             })}
           >
-            <TextBox
-              fullWidth
-              variant="standard"
-              onChange={(e) => handleMethChange(file.path, meth.name, e)}
-              placeholder={`[enter description for ${meth.name}]`}
-              size="small"
-              initial={meth.desc}
-              set={set}
-            />
+            <TextBox {...TextBoxArgs} />
           </div>
         </div>
+
+        {!!collapsed && (
+          <div className={classes.methDesc}>
+            {" "}
+            <TextBox {...TextBoxArgs} small />
+          </div>
+        )}
         {/* arguments { arg, file, meth, setArgProp, handleArgChange } */}
         <ul className={classes.ul}>
           {meth?.args?.map((arg, g) => (

@@ -1,8 +1,9 @@
 const fs = require("fs");
 const db = require("./data/db");
 const parser = require("./parser");
-const root = "/Users/miltonjones/Code/tango-test/";
-const source = "tango-associate-ui/src";
+const app = require("./config");
+const root = app.config.ROOT;
+const source = app.config.PATH;
 
 const fix = (path) => {
   let markup = fs.readFileSync(root + path).toString();

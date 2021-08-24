@@ -62,7 +62,6 @@ function PathName({
         [classes.path]: !0,
       })}
     >
-      {expanded ? <ExpandLess /> : <ExpandMore />}
       <div
         onClick={onClick}
         className={jcss({
@@ -76,15 +75,21 @@ function PathName({
             [classes.flex]: !0,
           })}
         >
+          {/* expand icon */}
+          {expanded ? <ExpandLess /> : <ExpandMore />}
+          {/* completion  indicator */}
           {valid && <CheckCircle className={classes.check} />}
 
+          {/* file name */}
           {name}
         </div>
 
+        {/* collapsed description */}
         {!!collapsed && (
           <div style={{ marginLeft: 16, fontWeight: 400 }}>{desc}</div>
         )}
       </div>
+      {/* expanded description */}
       <div className={jcss({ [classes.text]: !0, collapsed })}>
         <TextBox
           classes={{ root: classes.TextField }}

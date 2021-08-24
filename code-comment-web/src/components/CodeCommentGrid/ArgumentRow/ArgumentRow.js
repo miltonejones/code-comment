@@ -24,7 +24,7 @@ const ArgumentRow = ({ arg, file, meth, setArgProp, handleArgChange }) => {
               {arg.name}
             </span>
           </div>
-          <small className={classes.methDesc}>{arg.desc}</small>
+          <small className={classes.argDesc}>{arg.desc}</small>
         </div>
       </li>
     </>

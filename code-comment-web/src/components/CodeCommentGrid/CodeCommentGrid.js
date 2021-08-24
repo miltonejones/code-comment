@@ -33,8 +33,8 @@ const CodeCommentGrid = () => {
   const [collapsed, setCollapsed] = useState(false);
   const [page, setPage] = useState(0);
   const [files, setFiles] = useState([]);
-  const [markupIndex, setMarkupIndex] = useState(0);
   const [param, setParam] = useState("");
+  const [markupIndex, setMarkupIndex] = useState(0);
   const [markup, setMarkup] = useState("");
   const [bar, setBar] = useState({ open: false });
   const [tabValue, setTabValue] = useState(2);

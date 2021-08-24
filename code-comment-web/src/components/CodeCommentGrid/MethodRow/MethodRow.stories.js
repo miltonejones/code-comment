@@ -19,12 +19,12 @@ const Template = (args) => {
 };
 export const DefaultView = Template.bind({});
 DefaultView.args = {
+  collapsed: false,
+  odd: true,
   file,
   meth: file.methods[0],
-  odd: true,
   iifMethChange: console.log,
   handleMethChange: console.log,
-  collapsed: false,
   markup: "this is some markup",
   set: console.log,
   setArgProp: console.log,

@@ -2,7 +2,7 @@
 
 const comment = require("./comment");
 const doc = require("./document");
-const parser = require("./parser");
+const app = require("./config");
 const fs = require("fs");
 var express = require("express"); // call express
 var cors = require("cors"); // call express
@@ -28,7 +28,7 @@ router.post("/", (req, res) => {
 });
 
 router.put("/", (req, res) => {
-  fs.readFile(parser.root + req.body.file, (err, data) => {
+  fs.readFile(app.config.ROOT + req.body.file, (err, data) => {
     if (err) return res.json({ err });
     res.json({ response: data.toString() });
   });
