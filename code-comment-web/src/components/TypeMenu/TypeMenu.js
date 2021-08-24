@@ -1,7 +1,7 @@
 import React from "react";
 import { jcss } from "../../utils";
 import { IconButton, Menu, MenuItem } from "@material-ui/core";
-import { MoreVert } from "@material-ui/icons";
+import { ExpandMore } from "@material-ui/icons";
 import { CodeCommentGridStyles } from "../CodeCommentGrid/CodeCommentGrid.classes";
 
 function TypeMenu({ arg, setValue }) {
@@ -28,8 +28,9 @@ function TypeMenu({ arg, setValue }) {
         aria-controls="simple-menu"
         aria-haspopup="true"
         onClick={handleClick}
+        style={{ marginLeft: "auto" }}
       >
-        <MoreVert />
+        <ExpandMore />
       </IconButton>
       <Menu
         id="simple-menu"

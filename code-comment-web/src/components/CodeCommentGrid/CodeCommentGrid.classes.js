@@ -9,6 +9,39 @@ export const CodeCommentGridStyles = makeStyles((theme) => ({
     width: "calc(100vw - 80px)",
     height: "75vh",
   },
+  ArgButton: {
+    maxWidth: 220,
+    width: "inherit",
+    borderRadius: 5,
+    display: "flex",
+    alignItems: "center",
+    paddingLeft: 12,
+    cursor: "pointer",
+    border: "solid 1px #fff",
+    "&:active": {
+      backgroundColor: "#e0e0e0",
+    },
+    "& .argMenu": {
+      visibility: "hidden",
+    },
+    "& .argName": {
+      width: 180,
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+      whiteSpace: "nowrap",
+      borderRight: "solid 1px #fff",
+    },
+    "&:hover": {
+      border: "solid 1px #e0e0e0",
+      backgroundColor: "antiquewhite",
+      "& .argName": {
+        borderRight: "solid 1px #e0e0e0",
+      },
+      "& .argMenu": {
+        visibility: "visible",
+      },
+    },
+  },
   MethodRow: {
     padding: "8px 0",
   },
@@ -66,6 +99,7 @@ export const CodeCommentGridStyles = makeStyles((theme) => ({
     fontStyle: "normal",
     textTransform: "uppercase",
     color: "#777",
+    marginRight: 4,
   },
   meth: {
     padding: "0 0 0 24px",

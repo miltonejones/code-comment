@@ -8,21 +8,24 @@ const ArgumentRow = ({ arg, file, meth, setArgProp, handleArgChange }) => {
     <>
       <li>
         <div className={classes.meth}>
-          <div>
-            <TypeMenu
-              arg={arg}
-              setValue={(t) => {
-                setArgProp(file.path, meth.name, arg.name, "type", t);
-              }}
-            />
+          <div className={classes.ArgButton}>
             <em className={classes.type}>{arg.type}</em>{" "}
-            <span
+            <div
+              className="argName"
               onClick={() =>
                 handleArgChange(file.path, meth.name, arg.name, arg.desc)
               }
             >
               {arg.name}
-            </span>
+            </div>
+            <div className="argMenu">
+              <TypeMenu
+                arg={arg}
+                setValue={(t) => {
+                  setArgProp(file.path, meth.name, arg.name, "type", t);
+                }}
+              />
+            </div>
           </div>
           <small className={classes.argDesc}>{arg.desc}</small>
         </div>
